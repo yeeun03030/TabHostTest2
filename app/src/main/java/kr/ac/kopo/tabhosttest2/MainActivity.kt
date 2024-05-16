@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity(), ActionBar.TabListener {
     }
 
     override fun onTabSelected(tab: ActionBar.Tab?, ft: FragmentTransaction?) {
-        TODO("Not yet implemented")
         var fragment: MyFragment? = null
 
         if(arrFrags[tab!!.position] == null) {
@@ -56,11 +55,11 @@ class MainActivity : AppCompatActivity(), ActionBar.TabListener {
     }
 
     override fun onTabUnselected(tab: ActionBar.Tab?, ft: FragmentTransaction?) {
-        TODO("Not yet implemented")
+
     }
 
     override fun onTabReselected(tab: ActionBar.Tab?, ft: FragmentTransaction?) {
-        TODO("Not yet implemented")
+
     }
 
     // Tab을 선택하면 변경되는 Content로 Fragment 사용
